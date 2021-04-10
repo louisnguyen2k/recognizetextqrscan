@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rotationX="-5"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/img_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <TextView
+        android:id="@+id/txt_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Display Detected Text From Image"
+        android:layout_below="@id/img_view"
+        android:textSize="20dp"
+        android:maxLines="5"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:id="@+id/btn_capture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capture"
+        android:textAllCaps="false"
+        android:layout_above="@id/btn_choosefile"
+        android:layout_margin="5dp"
+        android:background="@color/design_default_color_primary"
+        android:textColor="@android:color/white"
+        android:textSize="17dp"
+        />
+    <Button
+        android:id="@+id/btn_choosefile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose File"
+        android:textAllCaps="false"
+        android:layout_above="@id/btn_detected_qr"
+        android:layout_margin="5dp"
+        android:background="@color/design_default_color_primary"
+        android:textColor="@android:color/white"
+        android:textSize="17dp"
+        />
+    <Button
+        android:id="@+id/btn_detected_qr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detected QR"
+        android:textAllCaps="false"
+        android:layout_above="@id/btn_detected_mrz"
+        android:layout_margin="5dp"
+        android:background="@color/design_default_color_primary"
+        android:textColor="@android:color/white"
+        android:textSize="17dp"
+        />
+    <Button
+        android:id="@+id/btn_detected_mrz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Detected MRZ"
+        android:textAllCaps="false"
+        android:background="@color/design_default_color_primary"
+        android:textColor="@android:color/white"
+        android:textSize="17dp"
+        />
+
+</RelativeLayout>

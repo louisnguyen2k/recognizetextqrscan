@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "748598856831",
+    "project_id": "recognitetext",
+    "storage_bucket": "recognitetext.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748598856831:android:4e45683b5adb24a417834a",
+        "android_client_info": {
+          "package_name": "com.example.reconitetext"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748598856831-i7f7ab4eiecv1qv0ejcb8pjuphkql7rc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABxW75YcsJUpVQ0tx10q0pShEcQFYydj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748598856831-i7f7ab4eiecv1qv0ejcb8pjuphkql7rc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
